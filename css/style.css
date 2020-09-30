@@ -1,0 +1,75 @@
+/*cleaning formatting*/
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-size: 18px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background-color:  #e6e6e6;
+}
+
+/*formatting menu*/
+#cabecalho{
+    text-align: center;
+    padding: 15px;
+    background-color: #f7b600;;
+}
+#logo{
+    padding: 10px;
+}
+#menu{
+    margin: 15px;
+    
+}
+h1{
+    display: block;
+    color: #4e4e4e;
+    font-weight: bold;
+    font-size: 50px;
+}
+a{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+a:link, a:visited{
+    color: white;
+}
+a:hover{
+    background-color: white;
+    color: #f7b600;
+    padding: 10px;
+}
+.branco{
+    color: white;
+}
+/*formatting post*/
+#conteudo-principal{
+    width: 920px;
+    margin: 0 auto;
+}
+#rodape{
+    background-color: #CCC;
+    font-weight: bold;
+    text-align: center;
+    clear: both;
+}
+.post-principal{
+    background-color: white;
+    padding: 10px;
+}
+.post-lateral{  
+    padding: 10px;
+    background-color: white;
+}
+#area-lateral{
+    background-color: white;
+    text-align: center;
+    width: 240px;
+    float: right;
+}
+#area-principal{
+    width: 660px;
+    float: left;
+}
