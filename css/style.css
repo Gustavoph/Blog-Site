@@ -49,15 +49,22 @@ a:hover{
     width: 920px;
     margin: 0 auto;
 }
+.leia{
+    margin-top:10px;
+    color: red;
+}
 #rodape{
     background-color: #CCC;
     font-weight: bold;
     text-align: center;
     clear: both;
+    padding: 15px;
+    margin-top: 15px;
 }
 .post-principal{
     background-color: white;
-    padding: 10px;
+    padding: 15px;
+    margin-bottom: 15px;
 }
 .post-lateral{  
     padding: 10px;
@@ -68,8 +75,34 @@ a:hover{
     text-align: center;
     width: 240px;
     float: right;
+    margin-top: 15px;
+
 }
 #area-principal{
     width: 660px;
     float: left;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    display: block;
 }
+h2{
+    color: #f7b600;
+}
+.data-postagem{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.post-principal a:link, .post-principal a:visited{
+    background-color: white;
+    color: #f7b600;
+    padding: 0px;
+}
+.post-principal a:hover{
+    text-decoration: underline;
+}
+.post-principal p{
+    text-align: justify;
+    padding: 10px 0;
+}
+
