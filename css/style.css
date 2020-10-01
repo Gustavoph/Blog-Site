@@ -10,8 +10,10 @@ body{
 }
 
 /*formatting menu*/
+#cabecalho #logo{
+    text-align:center;
+}
 #cabecalho{
-    text-align: center;
     padding: 15px;
     background-color: #f7b600;
     width: 100%;
@@ -31,22 +33,59 @@ h1{
     font-weight: bold;
     font-size: 50px;
 }
-#cabecalho #menu a{
-    padding: 10px;
+#menu ul{
+    border: 0px;
+    padding: 0px;
+    margin-left: 470px;
+}
+#menu li{
+    float: left;
+    margin: 0px;
+    padding: 0px;
+}
+#cabecalho #menu li a{
     text-decoration: none;
+    display: block;
+    height: 40px;
     color: white;
+    width: 120px;
+    line-height: 40px;
+
 }
-#cabecalho #menu a:link, #cabecalho #menu a:visited{
-    color: white;
-}
-#cabecalho #menu a:hover{
+#cabecalho #menu li a:hover{
     background-color: white;
     color: #f7b600;
-    padding: 10px;
+    transition: 0.5s;
 }
+
 .branco{
     color: white;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*formatting post*/
 #conteudo-principal{
     width: 920px;
@@ -121,9 +160,11 @@ h2{
 }
 ul{
     margin: 10px;
+    list-style: none;   
 }
 li{
     list-style: none;
+
 }
 li a{
     text-decoration: none;
