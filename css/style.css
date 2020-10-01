@@ -63,7 +63,8 @@ a:hover{
 }
 .post-principal{
     background-color: white;
-    padding: 15px;
+    padding: 20px;
+    padding-top: 30px;
     margin-bottom: 15px;
 }
 .post-lateral{  
@@ -97,6 +98,7 @@ h2{
     background-color: white;
     color: #f7b600;
     padding: 0px;
+
 }
 .post-principal a:hover{
     text-decoration: underline;
