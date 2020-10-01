@@ -13,7 +13,10 @@ body{
 #cabecalho{
     text-align: center;
     padding: 15px;
-    background-color: #f7b600;;
+    background-color: #f7b600;
+    width: 100%;
+    margin-top: -170px;
+    position: fixed;
 }
 #logo{
     padding: 10px;
@@ -48,6 +51,7 @@ h1{
 #conteudo-principal{
     width: 920px;
     margin: 0 auto;
+    margin-top: 170px;
 }
 .leia{
     margin-top:10px;
@@ -66,18 +70,18 @@ h1{
     padding: 20px;
     padding-top: 30px;
     margin-bottom: 15px;
+    border-radius: 8px;
 }
 .post-lateral{  
     padding: 10px;
     background-color: white;
+    border-radius: 10px;
 }
 #area-lateral{
     background-color: white;
-
     width: 240px;
     float: right;
     margin-top: 15px;
-
 }
 #area-principal{
     width: 660px;
@@ -143,7 +147,4 @@ li a{
     background-color: #f99200;
     color: white;
 }
-img{
-    border: 2px #f99200;
-    border-style: inset;
-}
+
