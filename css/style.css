@@ -28,15 +28,15 @@ h1{
     font-weight: bold;
     font-size: 50px;
 }
-a{
+#cabecalho #menu a{
     padding: 10px;
     text-decoration: none;
     color: white;
 }
-a:link, a:visited{
+#cabecalho #menu a:link, #cabecalho #menu a:visited{
     color: white;
 }
-a:hover{
+#cabecalho #menu a:hover{
     background-color: white;
     color: #f7b600;
     padding: 10px;
@@ -73,7 +73,7 @@ a:hover{
 }
 #area-lateral{
     background-color: white;
-    text-align: center;
+
     width: 240px;
     float: right;
     margin-top: 15px;
@@ -90,14 +90,18 @@ h2{
     color: #f7b600;
 }
 .data-postagem{
+    display: block;
     font-size: 12px;
     font-weight: bold;
+    padding-bottom: 10px;
+    text-indent: 5px;
 }
 
 .post-principal a:link, .post-principal a:visited{
     background-color: white;
     color: #f7b600;
     padding: 0px;
+    text-decoration: none;
 
 }
 .post-principal a:hover{
@@ -107,4 +111,39 @@ h2{
     text-align: justify;
     padding: 10px 0;
 }
-
+#area-lateral #menu-lateral a{
+    color:black;
+    padding: 0px;
+}
+ul{
+    margin: 10px;
+}
+li{
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    background-color: #f7b600;
+    display: block;
+    width: 217px;
+    height: 40px;
+    line-height: 40px;
+    text-indent: 20px;
+}
+#area-lateral #h2-lateral{
+    text-align: center;
+    color: #4e4e4e;
+}
+#area-lateral #menu-lateral a:hover{
+    background-color: #f99200;
+    color: white;
+}
+#home #area-lateral .home-lateral a,
+#jogo #area-lateral .jogo-lateral a{
+    background-color: #f99200;
+    color: white;
+}
+img{
+    border: 2px #f99200;
+    border-style: inset;
+}
